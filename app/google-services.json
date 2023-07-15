@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "396035622998",
+    "firebase_url": "https://co-fitness-a4e9f-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "co-fitness-a4e9f",
+    "storage_bucket": "co-fitness-a4e9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396035622998:android:9b5852ce250713f8ac53f7",
+        "android_client_info": {
+          "package_name": "com.example.co_fitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396035622998-bm3pa4fpg598ga715cqcbhajhfhtrkdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6u-17iG1RkyY4aZM3wNgtV5jrdIIBLEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396035622998-bm3pa4fpg598ga715cqcbhajhfhtrkdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

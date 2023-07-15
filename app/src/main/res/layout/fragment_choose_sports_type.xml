@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ChooseSportTypeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/HelloUser_MENU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/chooseType_TXT_Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="15dp"
+                    android:elevation="10dp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="Create A New Offer"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="40sp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/chooseType_TXT_secondTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/chooseType_TXT_Title"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginEnd="15dp"
+                    android:elevation="10dp"
+                    android:gravity="center"
+                    android:text="  choose the type of sport:"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="55dp"
+                android:id="@+id/FirstLayer_MENU"
+                android:layout_below="@+id/HelloUser_MENU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:gravity="center">
+                <FrameLayout
+                    android:id="@+id/chooseType_BTN_tennis"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/circle_grey">
+
+                    <ImageView
+                        android:id="@+id/chooseType_IMG_tennis"
+                        android:layout_width="60dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_tennis" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:text="Tennis"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold"/>
+
+                </FrameLayout>
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="150dp" />
+                <FrameLayout
+                    android:id="@+id/chooseType_BTN_football"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/circle_grey">
+
+                    <ImageView
+                        android:id="@+id/chooseType_IMG_football"
+                        android:layout_width="60dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_football" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="football"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="40dp"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold"/>
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:id="@+id/SecondLayer_MENU"
+                android:layout_below="@+id/FirstLayer_MENU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:gravity="center">
+                <FrameLayout
+                    android:id="@+id/chooseType_BTN_basketball"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/circle_grey">
+
+                    <ImageView
+                        android:id="@+id/chooseType_IMG_basketball"
+                        android:layout_width="60dp"
+                        android:layout_height="56dp"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_basketball" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Basketball"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="40dp"
+                        android:textSize="25sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                </FrameLayout>
+
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="150dp" />
+                <FrameLayout
+                    android:id="@+id/chooseType_BTN_running"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/circle_grey">
+
+                    <ImageView
+                        android:id="@+id/chooseType_IMG_running"
+                        android:layout_width="60dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_running" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jogging / Running"
+                        android:gravity="center"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:textSize="25sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/SecondLayer_confirm_BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/SecondLayer_MENU"
+                android:layout_marginTop="20dp"
+                android:columnCount="3"
+                android:gravity="center">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/chooseType_BTN_continue"
+                    android:layout_width="250dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Continue"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:backgroundTint="@color/dark_main"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

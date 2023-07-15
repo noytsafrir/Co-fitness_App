@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainPageActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/welcome_IMG_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/backgrund" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/homepage_LAY_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#23FFFFFF">
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <FrameLayout
+        android:id="@+id/homepage_FRAME_main"
+        android:layout_above="@id/homepage_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/homepage_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="5dp"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

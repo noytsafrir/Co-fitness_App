@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+
+
+    <style name="MyAlertDialogStyle" parent="@style/ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="shapeAppearance">@style/ShapeAppearanceOverlay.MyApp.Rounded</item>
+        <item name="android:background">@drawable/alert_background</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item> <!-- Adjust the corner radius as needed -->
+    </style>
+
+</resources>

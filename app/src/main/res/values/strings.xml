@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">co-fitness</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_my_groups">Your Groups</string>
+    <string name="title_create_a_group">Create A Group</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_favorite_games">Favorite Games</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="name">Enter a Name</string>
+    <string name="description">Description</string>
+    <string name="create">Create</string>
+    <string name="create_a_group">Create A Group</string>
+    <string name="capacity">Capacity</string>
+    <string name="password">Password</string>
+    <string name="join">Join</string>
+
+    <string-array name="Level">
+        <item>Beginner</item>
+        <item>Average</item>
+        <item>Pro</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Undefined</item>
+    </string-array>
+
+    <string-array name="Prefix">
+        <item>050</item>
+        <item>051</item>
+        <item>052</item>
+        <item>053</item>
+        <item>054</item>
+        <item>055</item>
+        <item>056</item>
+        <item>058</item>
+        <item>059</item>
+    </string-array>
+
+</resources>

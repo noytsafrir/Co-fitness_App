@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_RV_top">
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/home_TV_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/home_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_logout"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="6dp"
+            android:backgroundTint="#00000000"
+            android:layout_marginTop="7dp" />
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/home_RV_top"
+        android:layout_marginTop="20dp"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/home_RV_top"
+        android:orientation="vertical">
+
+        <!--        start of classification-->
+
+        <com.google.android.material.card.MaterialCardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="16dp">
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/classification_chip_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:chipSpacing="8dp"
+                android:background="@color/offer_back"
+                android:clipChildren="false"
+                app:singleSelection="true">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_all"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_tennis"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipIcon="@drawable/ic_tennis"
+                    android:text="Tennis" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_football"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipIcon="@drawable/ic_football"
+                    android:text="Football" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_basketball"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipIcon="@drawable/ic_basketball"
+                    android:text="Basketball" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_running"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipIcon="@drawable/ic_running"
+                    android:text="Running" />
+
+
+                <!-- Add more chips for other classification options -->
+
+            </com.google.android.material.chip.ChipGroup>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/home_TV_no_groups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nothing to show, Stop being lazy and create an offer!"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_below="@+id/classification_chip_group"
+            android:layout_marginTop="30dp"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:textColor="@color/black"/>
+
+<!--        end of classification-->
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/home_LST_offers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/home_TV_no_groups"
+        tools:listitem="@layout/offer_item"
+        android:layout_marginTop="20dp"
+        android:paddingTop="30dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

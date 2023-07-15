@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.co_fitness.Fragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_chooseOffer"
+        android:name="com.example.co_fitness.Fragments.ChooseSportTypeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_choose_sports_type" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_dashboard"-->
+<!--        android:name="com.example.co_fitness.view.Activities.HomeFragment"-->
+<!--        android:label="@string/title_my_groups"-->
+<!--        tools:layout="@layout/fragment_my_groups" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_create_a_group"-->
+<!--        android:name="com.example.co_fitness.view.Activities.HomeFragment"-->
+<!--        android:label="@string/title_create_a_group"-->
+<!--        tools:layout="@layout/fragment_create_a_group" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_favorite_games"-->
+<!--        android:name="com.example.co_fitness.view.Activities.HomeFragment"-->
+<!--        android:label="@string/title_favorite_games"-->
+<!--        tools:layout="@layout/fragment_favorite_games" />-->
+
+</navigation>
