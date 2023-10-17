@@ -1,6 +1,5 @@
 # Co-fitness Android App
-If you want to go out and take part in a sporting activity with a group of people at your level
-or if you like going out for sports activities with people and don't always find partners, this application is for you.
+**If you want to go out and take part in a sporting activity with a group of people at your level or if you don't always find partners, this application is for you.**
 
 Co-fitness is a social application that allows you to find partners for sport activities.
 In the app you can create an offer for a sports activity that includes all the details or join an existing offer offered by another participant.
