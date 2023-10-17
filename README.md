@@ -38,4 +38,10 @@ width = "30%">
 <img src="https://github.com/noytsafrir/Co-fitness_App/assets/58825555/b24fcb89-b66d-4ceb-837d-77ef69e7e76a.jpg"
 width = "30%">
 
+#### Video:
+
+https://github.com/noytsafrir/Co-fitness_App/assets/58825555/1577607d-17d5-4ae4-8990-f2fc5ced18fd
+
+
+
 
