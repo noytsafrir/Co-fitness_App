@@ -42,5 +42,6 @@ width = "30%">
 https://github.com/noytsafrir/Co-fitness_App/assets/58825555/1577607d-17d5-4ae4-8990-f2fc5ced18fd
 
 
-
+## Authors
+https://github.com/noytsafrir
 
