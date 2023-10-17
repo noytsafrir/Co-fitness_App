@@ -4,6 +4,8 @@
 Co-fitness is a social application that allows you to find partners for sport activities.
 In the app you can create an offer for a sports activity that includes all the details or join an existing offer offered by another participant.
 
+**Created by: [Noy Tsafrir](https://github.com/noytsafrir)**
+
 ## Features
 
 - ***Create or Join Offer:*** Choose the type of sports activity, fill in the relevant details and suggest people to join you, or join an existing group and go out to have fun.
@@ -40,8 +42,4 @@ width = "30%">
 #### Video:
 
 https://github.com/noytsafrir/Co-fitness_App/assets/58825555/1577607d-17d5-4ae4-8990-f2fc5ced18fd
-
-
-## Authors
-https://github.com/noytsafrir
 
